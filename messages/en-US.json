@@ -1,5 +1,5 @@
 {
-	"Global.metadata.title": "Your Next Store - Demo",
+	"Global.metadata.title": "Green Gold",
 	"Global.metadata.description": "A Next.js boilerplate for building your online store instantly: simple, quick, powerful.",
 	"Global.notFound.title": "Not found",
 	"Global.notFound.description": "The page you were looking for does not exist.",
@@ -31,7 +31,7 @@
 	"Global.deliveryEstimates.month": "{count, plural, =1 {# month} other {# months}}",
 	"Global.deliveryEstimates.week": "{count, plural, =1 {# week} other {# weeks}}",
 	"Global.actions.shopNow": "Shop now",
-	"/.hero.title": "Discover our Curated Collection",
+	"/.hero.title": "Premium hemp derived THC shots",
 	"/.hero.description": "Explore our carefully selected products for your home and lifestyle.",
 	"/.hero.action": "Shop Now",
 	"/.hero.link": "/category/accessories",

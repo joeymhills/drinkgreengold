@@ -15,7 +15,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 export default async function AllProductsPage() {
 	const products = await Commerce.productBrowse({ first: 100 });
 	const t = await getTranslations("/products.page");
-
+	console.log(products);
 	return (
 		<main className="pb-8">
 			<h1 className="text-3xl font-bold leading-none tracking-tight text-foreground">{t("title")}</h1>
