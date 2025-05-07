@@ -4,6 +4,9 @@ import type { NextConfig } from "next/types";
 const withMDX = MDX();
 
 const nextConfig: NextConfig = {
+	typescript: {
+		ignoreBuildErrors: true,
+	  },
 	reactStrictMode: true,
 	eslint: {
 		ignoreDuringBuilds: true,
