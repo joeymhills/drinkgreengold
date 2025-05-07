@@ -4,13 +4,24 @@ import { SearchNav } from "@/ui/nav/search-nav";
 import { SeoH1 } from "@/ui/seo-h1";
 import { YnsLink } from "@/ui/yns-link";
 import { UserIcon } from "lucide-react";
+import Image from "next/image";
 
 export const Nav = async () => {
 	return (
 		<header className="z-50 py-4 sticky top-0 bg-white/90 backdrop-blur-xs nav-border-reveal">
 			<div className="mx-auto flex max-w-7xl items-center gap-2 px-4 flex-row sm:px-6 lg:px-8">
 				<YnsLink href="/">
-					<SeoH1 className="-mt-0.5 whitespace-nowrap text-xl font-bold">Green Gold</SeoH1>
+					{/*<SeoH1 className="-mt-0.5 whitespace-nowrap text-xl font-bold">Green Gold</SeoH1>*/}
+					<Image
+						alt="Cup of Coffee"
+						loading="eager"
+						priority={true}
+						className="rounded"
+						height={130}
+						width={130}
+						src="/gglogotransparent.png"
+						sizes="(max-width: 450px) 70vw, 450px"
+					/>
 				</YnsLink>
 
 				<div className="max-w-full flex shrink w-auto sm:mr-auto overflow-auto max-sm:order-2">

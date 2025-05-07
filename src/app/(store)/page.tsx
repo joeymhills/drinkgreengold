@@ -37,7 +37,7 @@ export default async function Home() {
 						className="rounded"
 						height={450}
 						width={450}
-						src="/images/bottle_render1.png"
+						src="/bottle_render1_NOBG.png"
 						style={{
 							objectFit: "cover",
 						}}

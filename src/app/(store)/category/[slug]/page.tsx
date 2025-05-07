@@ -12,7 +12,6 @@ export const generateMetadata = async (props: {
 	const params = await props.params;
 	const products = await Commerce.productBrowse({
 		first: 100,
-		filter: { category: params.slug },
 	});
 
 	if (products.length === 0) {
@@ -33,10 +32,10 @@ export default async function CategoryPage(props: {
 	const params = await props.params;
 	const products = await Commerce.productBrowse({
 		first: 100,
-		filter: { category: params.slug },
 	});
 
 	if (products.length === 0) {
+		console.log(products);
 		return notFound();
 	}
 

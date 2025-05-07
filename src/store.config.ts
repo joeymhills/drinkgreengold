@@ -1,10 +1,11 @@
 import AccessoriesImage from "@/images/accessories.jpg";
-import ApparelImage from "@/images/apparel.jpg";
+
+import ApparelImage from "@/images/gg_fruit_punch_box6pk.png";
 
 export const config = {
 	categories: [
-		{ name: "Apparel", slug: "apparel", image: ApparelImage },
-		{ name: "Accessories", slug: "accessories", image: AccessoriesImage },
+		{ name: "6-Packs", slug: "6-Packs", image: ApparelImage },
+		{ name: "12-Packs", slug: "12-Packs", image: AccessoriesImage },
 	],
 
 	social: {
